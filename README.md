@@ -133,6 +133,3 @@ Not implemented yet: neural-network/DL experiment, GenAI assistant, FastAPI serv
 
 The data is cross-sectional listing data and does not provide a reliable date feature for time-based validation. Price values are right-skewed and contain high-end properties, so RMSE is sensitive to large errors. Feature importance indicates how the fitted Random Forest used features; it does not establish causation.
 
-## Team contributions
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for suggested, independently verifiable work. Contributors should use their own GitHub accounts and describe only the work they actually completed.
