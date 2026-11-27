@@ -1,0 +1,14 @@
+problem,evidence,proposed_decision,reason
+Missing location,1 raw row,Drop in analysis copy,Location is required for location analysis and prediction
+Missing size,16 raw rows,No value invented; derive BHK only where size exists,Avoid fabricating bedroom counts
+Missing society,5502 raw rows,"Keep missing; use the column only for traceability, not this Phase 2 baseline",Too much missingness to impute reliably
+Missing bath,73 raw rows,Drop rows because bath is needed for domain checks,Arbitrary bathroom imputation would distort price patterns
+Missing balcony,609 raw rows,Keep missing; do not impute in cleaned EDA copy,Balcony was not needed for core cleaning decisions
+Exact duplicates,530 exact duplicates,Remove one duplicate occurrence,Repeated listings are not independent observations
+total_sqft ranges,Range values present,Use midpoint of range,A midpoint is transparent and reproducible
+total_sqft units,"Meter, yard, acre, cent, guntha, ground and perch forms",Convert to square feet,Enable comparable area measurements
+Unconverted total_sqft,Any remaining non-numeric value,Set as missing and remove if cleaning is blocked,Do not silently guess units
+Outlier: area per BHK,Rows below 300 sqft per BHK,Remove,Likely data errors or implausible listings
+Outlier: bath count,Bath count greater than BHK + 2,Remove,Implausible for this dataset
+Outlier: price_per_sqft,Outside 500-100000 rupees/sqft,Remove,Domain limits exclude implausible extreme values
+Rare locations,Location count below 10,Group as 'other',Prevent high-dimensional sparse location categories

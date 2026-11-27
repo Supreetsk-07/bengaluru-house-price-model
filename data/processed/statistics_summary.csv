@@ -1,0 +1,12 @@
+metric,value
+raw_rows,13320.0
+cleaned_rows,11947.0
+rows_removed,1373.0
+exact_duplicate_rows_removed,530.0
+mean_price_lakh,112.17133464468068
+median_price_lakh,70.0
+price_std_lakh,148.66275882147835
+mean_price_per_sqft,6340.92423420694
+median_price_per_sqft,5327.868852459016
+kruskal_wallis_statistic,1198.3858011082737
+kruskal_wallis_p_value,1.6422150565382014e-259

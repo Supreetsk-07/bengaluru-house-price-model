@@ -1,0 +1,4 @@
+model,mae_lakh,mse,rmse_lakh,r2
+Gradient Boosting,36.3284,10797.4847,103.9109,0.591
+Random Forest,34.2099,12045.0256,109.7498,0.5438
+Ridge Regression,45.7811,16483.6279,128.3886,0.3757

@@ -1,0 +1,14 @@
+column,meaning,data_type_or_note
+area_type,Area measurement/listing category,Categorical
+availability,Listing availability or date-like status,Categorical/date-like
+location,Bengaluru locality,Categorical
+size,Original bedroom-size text,Text
+society,Society/project name,Categorical
+total_sqft,"Original area value, possibly range or unit",Text
+bath,Number of bathrooms,Numeric
+balcony,Number of balconies,Numeric
+price,Property price in lakh rupees,Numeric target
+bhk,Numeric bedroom count derived from size,Engineered numeric
+total_sqft_numeric,Standardized area in square feet,Engineered numeric
+price_per_sqft,Price in rupees per square foot,Engineered numeric
+sqft_per_bhk,Area divided by bedroom count,Engineered numeric

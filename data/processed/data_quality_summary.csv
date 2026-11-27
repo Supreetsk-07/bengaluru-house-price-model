@@ -1,0 +1,10 @@
+column,missing_count,missing_percent,data_type,unique_values
+area_type,0,0.0,str,4
+availability,0,0.0,str,81
+location,1,0.01,str,1305
+size,16,0.12,str,31
+society,5502,41.31,str,2688
+total_sqft,0,0.0,str,2117
+bath,73,0.55,float64,19
+balcony,609,4.57,float64,4
+price,0,0.0,float64,1994

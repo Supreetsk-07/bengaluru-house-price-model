@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.vscode/
+~$*.pptx
+
+# This slide deck and generator use a course-provided review template.
+# Keep them local unless its redistribution terms explicitly allow publication.
+/AIML_Sem3_Review_Bengaluru_House_Price.pptx
+/adapt_sem3_review_template.py
