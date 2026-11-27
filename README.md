@@ -32,8 +32,6 @@ models/                Model comparison, tuning results, feature importance, sav
 reports/charts/        Phase 1 EDA and model charts
 phase1_analysis.py     Reproducible profiling, cleaning, EDA and statistics
 phase2_modeling.py     Train/test split, model comparison and Random Forest tuning
-create_phase2_presentation.py
-                       Regenerate the Phase 2 review presentation
 ```
 
 ## Setup
