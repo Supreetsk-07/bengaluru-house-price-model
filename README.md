@@ -61,6 +61,11 @@ Install dependencies:
 ```bash
 python -m pip install -r requirements.txt
 ```
+## Run tests
+
+```bash
+python -m pytest -v
+```
 
 ## Reproduce Phase 1
 
