@@ -1,5 +1,5 @@
 from pathlib import Path
-import re
+from src.cleaning import convert_total_sqft, extract_bhk
 
 import matplotlib
 matplotlib.use("Agg")
